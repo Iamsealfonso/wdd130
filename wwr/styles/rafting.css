@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@600&display=swap");
+
+:root {
+  --primary-color: #fb8500;
+  --secondary-color: #ffb703;
+  --accent1-color: #023047;
+  --accent2-color: #219ebc;
+  --heading-font: "Rubik", serif;
+  --paragraph-font: "Roboto", serif;
+  --paragraph-color: #222222;
+  --nav-background-color: #8ecae6;
+  --nav-link-color: #219ebc;
+  --nav-hover-link-color: #023047;
+  --nav-hover-background-color: #b1cbd7;
+  --white-color: #f2f2f2;
+}
+
+body {
+  font-family: var(----paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  max-height: 480px;
+  overflow: hidden;
+}
+
+.hero .hero--background {
+  grid-area: 1 / 1 / 3 / 2;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  grid-area: 1 / 1 / 2 / 2;
+  text-align: center;
+}
+
+.hero article {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--white-color);
+  grid-area: 2 / 1 / 3 / 2;
+  margin: 50px;
+  max-height: 250px;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.hero article img {
+  max-width: 200px;
+  height: auto;
+}
+
+.hero article p {
+  margin: 0;
+}
