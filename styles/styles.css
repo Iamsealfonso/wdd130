@@ -23,6 +23,8 @@ nav a {
 
 h1 {
   color: steelblue;
+  border-bottom: 1px solid steelblue;
+  margin-bottom: 0.5rem;
 }
 img {
   width: 150px;
