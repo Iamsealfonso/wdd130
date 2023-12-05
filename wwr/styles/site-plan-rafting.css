@@ -9,9 +9,10 @@
   --paragraph-font: "Roboto", serif;
   --paragraph-color: #222222;
   --nav-background-color: #8ecae6;
-  --nav-link-color: #219ebc;
-  --nav-hover-link-color: #023047;
+  --nav-link-color: #023047;
+  --nav-hover-link-color: #219ebc;
   --nav-hover-background-color: #b1cbd7;
+  --white-color: #f2f2f2;
 }
 
 body {
