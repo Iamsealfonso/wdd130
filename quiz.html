@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Basic HTML and CSS Quiz</h1>
+    </header>
+    <main>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>HTML Questions</legend>
+          <label for="q1">The tag used to define an unordered list is:</label>
+          <input type="text" id="q1" name="q1" required />
+          <label for="q4"
+            >How many heading levels are available for structuring content
+            hierarchically?</label
+          >
+          <input type="number" id="q4" name="q4" required />
+        </fieldset>
+        <fieldset>
+          <legend>CSS Questions</legend>
+          <label for="q2"
+            >Briefly explain the purpose of the margin property:</label
+          >
+          <textarea id="q2" name="q2" rows="4" required></textarea>
+
+          <label for="q3"
+            >What property is used to change the color of text within an
+            element?</label
+          >
+          <select id="q3" name="q3" required>
+            <option value="" selected disabled>Choose One ...</option>
+            <option value="color">color</option>
+            <option value="background-color">background-color</option>
+            <option value="text-color">text-color</option>
+          </select>
+        </fieldset>
+        <button type="submit">Submit Quiz</button>
+      </form>
+    </main>
+  </body>
+</html>
