@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: var(----paragraph-font);
+  font-family: "Roboto", serif;
   max-width: 960px;
   margin: 0 auto;
   padding: 20px;
@@ -57,7 +57,7 @@ header nav a {
   color: var(--nav-link-color);
   text-decoration: none;
   font-weight: bold;
-  font-family: var(----paragraph-font);
+  font-family: "Roboto", serif;
   font-size: 1.2rem;
 }
 
