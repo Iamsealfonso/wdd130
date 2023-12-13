@@ -333,16 +333,13 @@ footer nav {
   grid-area: 3 / 1 / 5 / 5;
 }
 
-.home-trips {
+.home--newsletter {
   display: flex;
-  flex-direction: column;
   gap: .5rem;
-  justify-content: center;
-  align-items: center;
   margin: 1.5rem;
 }
 
-.home-trips h2, .home-trips p {
+.home--newsletter h2, .home--newsletter p {
   margin: 0;
   padding: 0;
 }
@@ -352,4 +349,36 @@ footer nav {
   background-color: var(--primary-color);
   color: var(--white-color);
   padding: 0.7rem 1rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.home--newsletter-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.home--newsletter-image {
+  max-width: 54%;
+}
+
+.home--newsletter form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.home--newsletter label {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+}
+
+.home--newsletter button {
+  max-width: 80%;
+}
+
+.home--newsletter input {
+  height: 2.2rem;
 }
