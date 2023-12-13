@@ -335,11 +335,12 @@ footer nav {
 
 .home--newsletter {
   display: flex;
-  gap: .5rem;
+  gap: 0.5rem;
   margin: 1.5rem;
 }
 
-.home--newsletter h2, .home--newsletter p {
+.home--newsletter h2,
+.home--newsletter p {
   margin: 0;
   padding: 0;
 }
@@ -381,4 +382,62 @@ footer nav {
 
 .home--newsletter input {
   height: 2.2rem;
+}
+
+.trips--call-to-action {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.trips--call-to-action .cta {
+  position: absolute;
+  right: 5rem;
+  top: 3rem;
+}
+
+.detailed-trips {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.detailed-trips article {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.detailed-trips img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.detailed-trips h3,
+.detailed-trips p {
+  padding: 15px;
+}
+
+.trip-table {
+  padding: 1rem;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.trip-table th,
+.trip-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.trip-table th {
+  background-color: #f4f4f4;
 }
